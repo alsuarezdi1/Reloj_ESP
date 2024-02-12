@@ -1,0 +1,8 @@
+Esta es una prueba de concepto para crear un reloj RTC preciso interno en el ESP. 
+La idea es no depender de circuitos externos para reloj. 
+Inicialmente consultará un RTC externo en internet, luego continuará con el reloj interno
+
+Copiado desde:  C:\Alfonso_Luis\Proyectos\Proyectos_ESP\3_9_timer
+
+Version_1 feb/9/2024
+Utiliza la rutina de interrupciones para contar pulsos de 1 segundo que se muestran por el puerto serial

@@ -1,0 +1,18 @@
+Esta es una prueba de concepto para crear un reloj RTC preciso interno en el ESP. 
+La idea es no depender de circuitos externos para reloj. 
+Inicialmente consultará un RTC externo en internet, luego continuará con el reloj interno
+Una vez leida la hora, desconectará el NTP y WIFI
+
+---------------------------------------------------------------------------------------------------------------
+Versionado
+Copiado desde:  C:\Alfonso_Luis\Proyectos\Proyectos_ESP\3_9_timer
+
+Version_3 feb/9/2024
+Al iniciar, consulta la hora desde un servidor NTP, luego se desconecta de la red
+
+Version_2 feb/9/2024
+muestra la fecha y hora por puerto serial. todavia no consulta al NTC por la hora actual
+
+Version_1 feb/9/2024
+Utiliza la rutina de interrupciones para contar pulsos de 1 segundo que se muestran por el puerto serial
+
