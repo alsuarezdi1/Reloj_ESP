@@ -3,6 +3,9 @@ La idea es no depender de circuitos externos para reloj.
 Inicialmente consultará un RTC externo en internet, luego continuará con el reloj interno
 Una vez leida la hora, desconectará el NTP y WIFI
 
+Proyecto en GitHub:
+https://github.com/alsuarezdi1/Reloj_ESP
+
 ---------------------------------------------------------------------------------------------------------------
 Versionado
 Copiado desde:  C:\Alfonso_Luis\Proyectos\Proyectos_ESP\Reloj_ESP32
